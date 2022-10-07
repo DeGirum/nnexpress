@@ -6,7 +6,7 @@ We assume that the models are trained and stored by the [YOLOv5](https://github.
 
 ### Yolov5 tflite export
 
-`export.py` is used to export pytorch .pt and .pth to tflite format.
+`export.py` from [YOLOv5-DG](https://github.com/DeGirum/yolov5-dg.git) repository is used to export pytorch .pt and .pth to tflite format.
 
 ```bash
 python export.py --include tflite --weights PATH_TO_PT_FILE
@@ -19,7 +19,7 @@ python export.py --include tflite --weights PATH_TO_PT_FILE --int8 --data PATH_T
 
 ### Yolov7 tflite export
 
-`export_v7.py` is used to export pytorch .pt and .pth to tflite format.
+`export_v7.py` from [YOLOv7-DG](https://github.com/DeGirum/yolov7-dg.git) repository is used to export pytorch .pt and .pth to tflite format.
 
 ```bash
 python export_v7.py --tflite --weights PATH_TO_PT_FILE
