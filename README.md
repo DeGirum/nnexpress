@@ -10,12 +10,12 @@ We assume that the models are trained and stored by the Yolov5 repository [YOLOv
 
 ```bash
 python export.py --include tflite --weights PATH_TO_PT_FILE
-
+```
 In order to export to quantized tflite, add --int8 and --data with the path to representative dataset for quantization. --max-int8-img-cnt is used for limiting the number of images used for quantization.
 
 ```bash
 python export.py --include tflite --weights PATH_TO_PT_FILE --int8 --data PATH_TO_REP_DATASET --max-int8-img-cnt NUM_IMG_USED_FOR_QUANT
-
+```
 
 ### Yolov7 tflite export
 
@@ -23,8 +23,9 @@ python export.py --include tflite --weights PATH_TO_PT_FILE --int8 --data PATH_T
 
 ```bash
 python export_v7.py --tflite --weights PATH_TO_PT_FILE
-
+```
 In order to export to quantized tflite, add --int8 and --data with the path to representative dataset for quantization. --max-int8-img-cnt is used for limiting the number of images used for quantization.
 
 ```bash
 python export_v7.py --tflite --weights PATH_TO_PT_FILE --int8 --data PATH_TO_REP_DATASET  --max-int8-img-cnt NUM_IMG_USED_FOR_QUANT
+```
