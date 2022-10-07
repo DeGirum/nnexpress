@@ -1,7 +1,7 @@
 # nnexpress
 
 ## Export
-This guide explains how to export a trained YOLOv5 and Yolov7 models from PyTorch to tflite and quantized tflite.
+This guide explains how to export a trained YOLOv5 and YOLOv7 models from PyTorch to tflite and quantized tflite format.
 We assume that the models are trained and stored by the [YOLOv5](https://github.com/ultralytics/yolov5) repository  or the [YOLOv7](https://github.com/WongKinYiu/yolov7.git) repository.
 
 ### Yolov5 tflite export
